@@ -1,8 +1,7 @@
-# hotfix
+# Hotfix Database
 Website to store hotfixes using MongoDB and Node.js
 
-SETUP
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# SETUP
 
 To get the application setup on a VM follow the steps below.
 1. Navigate to \\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip, VSCode, ChromeSetup.exe, and node-v18.16.1-x64. These will be used to get the app running and on the localhost browser
@@ -14,8 +13,7 @@ To get the application setup on a VM follow the steps below.
 If for any reason the app crashes, to reset the app repeat steps 4 and 5
 
 
-HOW TO USE
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# HOW TO USE
 
 
 Homepage
