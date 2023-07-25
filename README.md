@@ -9,14 +9,21 @@ To get the application setup on a VM follow the steps below:
 1. Navigate to \\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe (to access localhost:3000), node-v18.16.1-x64 (Node.js) and mongodb-windows-x86_64-6.0.8-signed.msi (MongoDB). These will be used to get the app running and on the localhost browser.
 2. Once all of the files are downloaded, open the hotfix.zip and move the folder inside to the desktop. This is where the javascript application is.
 3. Start a new terminal in the directory of the file just moved to the desktop.
-4. In the terminal type in 'node index.js' making sure that the path of the terminal is in the main part of the folder where index.js is located. This should be the same location as the file from hotfix.zip.\
+4. In the terminal type in 'node index.js' making sure that the path of the terminal is in the main part of the folder where index.js is located. This should be the same location as the file from hotfix.zip.
+<br>
 
   Once running without errors, the console should log:
+  <br>  
     App lisening on port 3000
+  <br>  
     Database connected 127.0.0.1
-
+<br>
+<br>
+<br>
 5. Open Chrome and navigate to localhost:3000, this is where the login page will be.
-
+<br>
+<br>
+<br>
 If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
 <br>
