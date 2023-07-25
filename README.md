@@ -6,7 +6,7 @@ Website to store hotfixes using MongoDB and Node.js.
 # SETUP
 
 To get the application setup on a VM follow the steps below:
-1. Navigate to \\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip, ChromeSetup.exe, and node-v18.16.1-x64. These will be used to get the app running and on the localhost browser.
+1. Navigate to \\\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe and node-v18.16.1-x64. These will be used to get the app running and on the localhost browser.
 2. Once all of the files are downloaded, open the hotfix.zip and move the folder inside to the desktop.
 3. Start a new terminal in the directory of the file just moved to the desktop.
 4. In the terminal type in 'node index.js' making sure that the path of the terminal is in the main part of the folder where index.js is located.
