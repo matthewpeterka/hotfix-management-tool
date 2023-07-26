@@ -18,6 +18,7 @@ Database connected 127.0.0.1 <br> <br>
 
 8. Open Chrome and navigate to localhost:4000, this is where the homepage will be.
 <br>
+9. Lastly, install docx, as to output the hotfix as a docx file this is needed.
 If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
 <br>
