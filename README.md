@@ -3,30 +3,29 @@ Website to store hotfixes using MongoDB and Node.js.
 <br>
 <br>
 
+
 # SETUP
 
 To get the application setup on a VM follow the steps below:
 1. Navigate to \\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe (to access localhost:3000), node-v18.16.1-x64 (Node.js) and mongodb-windows-x86_64-6.0.8-signed.msi (MongoDB). These will be used to get the app running and on the localhost browser.
 2. Once all of the files are downloaded, open the hotfix.zip and move the folder inside to the desktop. This is where the javascript application is.
 3. Start a new terminal in the directory of the file just moved to the desktop.
-4. In the terminal type in 'node index.js' making sure that the path of the terminal is in the main part of the folder where index.js is located. This should be the same location as the file from hotfix.zip.
-<br>
-
-  Once running without errors, the console should log:
-  <br>  
-    App lisening on port 3000
-  <br>  
-    Database connected 127.0.0.1
-<br>
-<br>
-<br>
-5. Open Chrome and navigate to localhost:3000, this is where the login page will be.
-<br>
-<br>
+4. In the terminal type in 'node service.js' making sure that the path of the terminal is in the main part of the folder where service.js is located. This should be the same location as the file from hotfix.zip. This javascript file is used to create a Windows service that will keep the app running whenever the VM is on. Whenever this is typed in it may output information or it may not.
+5. Next, open task manager and click more details, and then Services on the top. Find a service called 'hotfixdatabase.exe'. If the status is running then nothing needs to be done, if it says stopped then right-click and select start. Once the status stays on running the initial setup is complete.
+6. Open Chrome and navigate to localhost:3000, this is where the login page will be.
 <br>
 If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
 <br>
+
+
+# TROUBLESHOOTING
+
+Error: MongooseServerSelectionError: Invalid message size: 1347703880, max allowed: 67108864 <br><br>
+This error occurs due to the MongoDB msi file not being installed. Install and try again. <br><br>
+
+Error: exception in initAndListen: NonExistentPath: Data directory C:\data\db\ not found. Create the missing directory or specify another path using (1) the --dbpath command line option, or (2) by adding the ‘storage.dbPath’ option in the configuration file., terminating <br><br>
+This is due to there not being a folder for the data to be stored. To fix this error simply go to the C: drive and create a new folder 'data'. In this folder add another new folder 'db'. Once complete, try again. <br><br>
 
 
 # HOW TO USE
@@ -90,3 +89,4 @@ Manage Hotfix
 This page allows the user to edit or delete the hotfix that was selected. The page also allows the user to download the hotfix as a CSV, JSON, or docx file to send to DevOps efficiently.
 <br>
 <br>
+
