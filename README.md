@@ -20,7 +20,9 @@ Database connected 127.0.0.1 <br> <br>
 <br>
 If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
-To connect to the VM instance of the app simply put in the IP address of the VM and add port:3000 in google chrome and it will load up the app on the VM.
+<br>
+To connect to the VM instance of the app simply put in the IP address of the VM and add port:3000 in Google Chrome and it will load up the app on the VM on any machine.
+<br>
 <br>
 
 
