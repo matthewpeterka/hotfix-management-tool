@@ -25,7 +25,7 @@ To connect to the VM instance of the app simply put in the IP address of the VM 
 <br>
 <br>
 If the website is updated to use HTTPS and needs the LDAPJS authentication feature, simply go to main.js located in /server/routes and find the router.get('') function and comment/uncomment out the correct code.
-This should only be done is using HTTPS since the username and password are not secure over http.
+This should only be done if the website is using HTTPS since the username and password are not secure over http.
 <br>
 <br>
 
