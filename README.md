@@ -1,5 +1,5 @@
 # Hotfix Database
-Website to store hotfixes using MongoDB and Node.js.
+Website to store build and sign requests using MongoDB and Node.js.
 <br>
 <br>
 
