@@ -24,6 +24,10 @@ If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 To connect to the VM instance of the app simply put in the IP address of the VM and add port:3000 in Google Chrome and it will load up the app on the VM on any machine.
 <br>
 <br>
+If the website is updated to use HTTPS and needs the LDAPJS authentication feature, simply go to main.js located in /server/routes and find the router.get('') function and comment/uncomment out the correct code.
+This should only be done is using HTTPS since the username and password are not secure over http.
+<br>
+<br>
 
 
 # TROUBLESHOOTING
