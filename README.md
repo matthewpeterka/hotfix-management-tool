@@ -1,4 +1,4 @@
-# Hotfix Database
+# Build/Sign Request Database
 Website to store build and sign requests using MongoDB and Node.js.
 <br>
 <br>
