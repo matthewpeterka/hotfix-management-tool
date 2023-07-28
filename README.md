@@ -18,13 +18,13 @@ Database connected 127.0.0.1 <br> <br>
 
 7. Open Chrome and navigate to localhost:3000, this is where the homepage will be.
 <br>
-If for any reason the app crashes, to reset the app repeat steps 4 and 5.
+--If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
 <br>
-To connect to the VM instance of the app simply put in the IP address of the VM and add port:3000 in Google Chrome and it will load up the app on the VM on any machine.
+--To connect to the VM instance of the app simply put in the IP address of the VM and add port:3000 in Google Chrome and it will load up the app on the VM on any machine.
 <br>
 <br>
-If the website is updated to use HTTPS and needs the LDAPJS authentication feature, simply go to main.js located in /server/routes and find the router.get('') function and comment/uncomment out the correct code.
+--If the website is updated to use HTTPS and needs the LDAPJS authentication feature, simply go to main.js located in /server/routes and find the router.get('') function and comment/uncomment out the correct code.
 This should only be done if the website is using HTTPS since the username and password are not secure over http.
 <br>
 <br>
