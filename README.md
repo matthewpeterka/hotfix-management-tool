@@ -46,14 +46,6 @@ Error: Going to localhost:3000 the app isn't running <br><br>
 
 
 # HOW TO USE
-
-
-Homepage
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  
-Log into the database using Emerson credentials.
-<br>
-<br>
   
   
 Data Homepage
