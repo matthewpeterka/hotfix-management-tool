@@ -44,6 +44,10 @@ Error: Going to localhost:3000 the app isn't running <br><br>
 --Another reason it may not be working is if there is already a service with that name. If that is the case simply go into the service.js file and change the name to something else and retry it.
 <br><br>
 
+Error: 10.223.78.60 redirected you too many times.
+--To fix this inspect the element and go to the application. In the cookies section add a new cookie named 'authenticated' and set the value to true. Then search for the IP address and '/hotfixes' and it should be functional.
+<br><br>
+
 
 # HOW TO USE
   
