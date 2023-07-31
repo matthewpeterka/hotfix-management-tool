@@ -10,13 +10,14 @@ To get the application setup on a VM follow the steps below:
 1. Navigate to \\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe (to access localhost:3000), node-v18.16.1-x64 (Node.js) and mongodb-windows-x86_64-6.0.8-signed.msi (MongoDB). These will be used to get the app running and on the localhost browser.
 2. Once all of the files are downloaded, open the hotfix.zip and move the folder inside to the desktop. This is where the javascript application is.
 3. Start a new terminal in the directory of the file just moved to the desktop.
-4. In the terminal type in 'node service.js' making sure that the path of the terminal is in the main part of the folder where service.js is located. This should be the same location as the file from hotfix.zip. This javascript file is used to create a Windows service that will keep the app running whenever the VM is on. Whenever this is typed in it may output information or it may not.
-5. Next, open task manager and click more details, and then Services on the top. Find a service called 'hotfixdatabase.exe'. If the status is running then nothing needs to be done, if it says stopped then right-click and select start. Once the status stays on running the initial setup is complete.
-6. To ensure the app is working correctly, navigate to the folder where the application is and open the file named daemon. In the daemon directory find the hotfix.database.out.log and open it. The text in the file should read: <br><br>
+4. Before running any command, go into the main folder of the app and open the service.js file. Edit the script path to be the path where the index.js file is located (the same route as the service.js file)
+5. In the terminal type in 'node service.js' making sure that the path of the terminal is in the main part of the folder where service.js is located. This should be the same location as the file from hotfix.zip. This javascript file is used to create a Windows service that will keep the app running whenever the VM is on. Whenever this is typed in it may output information or it may not.
+6. Next, open task manager and click more details, and then Services on the top. Find a service called 'hotfixdatabase.exe'. If the status is running then nothing needs to be done, if it says stopped then right-click and select start. Once the status stays on running the initial setup is complete.
+7. To ensure the app is working correctly, navigate to the folder where the application is and open the file named daemon. In the daemon directory find the hotfix.database.out.log and open it. The text in the file should read: <br><br>
 App is listening on localhost:3000 <br>
 Database connected 127.0.0.1 <br> <br>
 
-7. Open Chrome and navigate to localhost:3000, this is where the homepage will be.
+8. Open Chrome and navigate to localhost:3000, this is where the homepage will be.
 <br>
 --If for any reason the app crashes, to reset the app repeat steps 4 and 5.
 <br>
