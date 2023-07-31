@@ -40,7 +40,8 @@ Error: exception in initAndListen: NonExistentPath: Data directory C:\data\db\ n
 --This is due to there not being a folder for the data to be stored. To fix this error simply go to the C: drive and create a new folder 'data'. In this folder add another new folder 'db'. Once complete, try again. <br><br>
 
 Error: Going to localhost:3000 the app isn't running <br><br>
---To fix this error first ensure that the app is running as a Windows service. Go to the task manager and click on services and check for 'hotfixdatabase.exe' and see if it is running, if it isn't then right-click and start it. If this doesn't fix the issue then go to the project folder and open the daemon folder and read the 'hotfixdatabase.err.log' file to see what the error is.
+--To fix this error first ensure that the app is running as a Windows service. Go to the task manager and click on services and check for 'hotfixdatabase.exe' and see if it is running, if it isn't then right-click and start it. If this doesn't fix the issue then go to the project folder and open the daemon folder and read the 'hotfixdatabase.err.log' file to see what the error is. <br>
+--Another reason it may not be working is if there is already a service with that name. If that is the case simply go into the service.js file and change the name to something else and retry it.
 <br><br>
 
 
