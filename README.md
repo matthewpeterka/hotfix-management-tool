@@ -7,7 +7,7 @@ Website to store build and sign requests using MongoDB and Node.js.
 # SETUP
 
 To get the application setup on a VM follow the steps below:
-1. Navigate to \\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe (to access localhost:3000), node-v18.16.1-x64 (Node.js) and mongodb-windows-x86_64-6.0.8-signed.msi (MongoDB). These will be used to get the app running and on the localhost browser.
+1. Navigate to \\\usaust-file6\HawkTransfer\MPeterka and download hotfix.zip and install both ChromeSetup.exe (to access localhost:3000), node-v18.16.1-x64 (Node.js) and mongodb-windows-x86_64-6.0.8-signed.msi (MongoDB). These will be used to get the app running and on the localhost browser. There is no need to change any settings on the downloads either.
 2. Once all of the files are downloaded, open the hotfix.zip and move the folder inside to the desktop. This is where the javascript application is.
 3. Start a new terminal in the directory of the file just moved to the desktop.
 4. Before running any command, go into the main folder of the app and open the service.js file. Edit the script path to be the path where the index.js file is located (the same route as the service.js file)
