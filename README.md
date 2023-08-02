@@ -67,11 +67,11 @@ Export Data - To export data click the export data button and it will download a
 <br>
 <br>
 
-Import Data - To import data, ensure that a file named 'exported_data.json' is in the folder that the main application is in. The file must be in JSON format using the format of the exported data. This will skip     duplicates and add the data to the database and redirect to the main data page.
+Import Data - To import data, ensure that a file named 'exported_data.json' is in the folder that the main application is in. The file must be in JSON format using the format of the exported data. This will skip     duplicates and add the data to the database and redirect to the main data page. The format for each variable is an array and you can view the format in the provided 'exported_data' file.
 <br>
 <br>
 
-Logout - in the top right there is a logout button that will log the user out and return to the login page.
+Logout - in the top right there is a logout button that will log the user out and return to the login page. This redirects to the homepage since the site isn't using LDAPJS.
 <br>
 <br>
 
